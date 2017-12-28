@@ -1,0 +1,22 @@
+
+Floating Ad :
+https://devweb.indegene.com/AstraZeneca/Banners_US/MobileVariants/FloatingAd/index.html
+ 
+Multi Tabs :
+https://devweb.indegene.com/AstraZeneca/Banners_US/MobileVariants/MultiTabs/index.html
+ 
+On Erase:
+https://devweb.indegene.com/AstraZeneca/Banners_US/MobileVariants/onErase/index.html
+ 
+On Scroll:
+https://devweb.indegene.com/AstraZeneca/Banners_US/MobileVariants/OnScroll/index.html
+ 
+On Tap:
+https://devweb.indegene.com/AstraZeneca/Banners_US/MobileVariants/onTap/index.html
+ 
+Static Popup:
+https://devweb.indegene.com/AstraZeneca/Banners_US/MobileVariants/StaticPopup/index.html
+ 
+Static Popup:
+https://devweb.indegene.com/AstraZeneca/Banners_US/MobileVariants/SwipeToFill/index.html
+ 

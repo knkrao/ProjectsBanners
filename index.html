@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Banner Microsite</title>
+      <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+      <script src="js/jquery.min.js"></script>
+      <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+      <link rel="shortcut icon" href="images/FavIcon.png">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="keywords" content="INDEGENE Banner show case" />
+      <meta http-equiv="refresh">
+      <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+      <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+      <link href="css/thumbnail-slider.css" rel="stylesheet" type="text/css" />
+      <script src="js/thumbnail-slider.js" type="text/javascript"></script>
+      <script src="js/wow.min.js"></script>
+      <script></script>
+      <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+      <script src="js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="js/move-top.js"></script>
+      <script type="text/javascript" src="js/easing.js"></script>
+      <script type="text/javascript" src="js/script.js"></script>
+      <script type="text/javascript">
+         jQuery(document).ready(function($) {
+         	 new WOW().init();
+         	$(".scroll").click(function(event){		
+         		event.preventDefault();
+         		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+         	});
+         });
+      </script>
+      <!----start-top-nav-script---->
+      <script type="text/javascript" src="js/modernizr.custom.js"></script>
+      <!----Pre-Loader strts---->
+      <script>
+         $(window).on('load', function() { // makes sure the whole site is loaded 
+         $('#status').delay(1000).fadeOut(); // will first fade out the loading animation 
+         $('#preloader').delay(1000).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+         
+         
+         setTimeout(function(){ $('.header').delay(1000).css({'display':'block'}); $('body').delay(1000).css({});}, 1000);
+         })
+         
+      </script>
+      <!----Pre-Loader ends---->
+      <style>
+         
+      </style>
+   </head>
+   <body>
+      <!-- Preloader -->
+      <div id="preloader">
+         <div id="status"><img src="images/atom.png" width="100%" height="100%" alt=""></div>
+      </div>
+     
+      <div class="content">
+         <div class="container">
+            <div class="col-top" id="about">
+               <h3>Banner Production Services</h3>
+               <p>Delivers multiple types of banners using the latest available platforms using W3C & DCM standards. Double click and LMS are the platforms used for the rich media and other banners respectively. Quality control is taken care by DCM validator and Display AdTech validator.</p>
+            </div>
+            <!---->
+            <div class="tab-head">
+               <nav class="col-md-6 nav-sidebar wow fadeInLeft animated" data-wow-delay=".5s">
+                  <ul class="nav tabs" id="bannerSelection">
+                     <li class="active"><a href="#tab1" data-toggle="tab" style="line-height: 40px;"><span><img src="images/HTML_Banners.png" width="100%" height="100%"></span><span class="tabHover">HTML</span> Banners</a></li>
+                     <li class=""><a href="#tab2" data-toggle="tab" style="line-height: 40px;"><span><img src="images/Rich_Media_Banners.png" width="100%" height="100%"></span><span class="tabHover">Rich Media</span> Banners</a></li>
+                     <li class=""><a href="#tab3" data-toggle="tab" style="line-height: 40px;"><span><img src="images/Responsive_Banners.png" width="100%" height="100%"></span><span class="tabHover">Responsive</span> Banners</a></li>
+                     <!-- <li class=""><a href="#tab4" data-toggle="tab"><span class="glyphicon glyphicon-erase" aria-hidden="true"></span>Innovative banners</a></li>-->
+                     <li class=""><a href="#tab5" data-toggle="tab" style="line-height: 40px;"><span><img src="images/Static_Banners.png" width="100%" height="100%"></span><span class="tabHover">Static</span> Banners</a></li>
+                  </ul>
+               </nav>
+               <div class="col-md-6 tab-content wow fadeInRight animated" data-wow-delay=".5s">
+                  <div class="tab-pane active text-style" id="tab1">
+                     <div class="facts">
+                        <span> <img src="images/HTML_Banners.png" width="100%" height="100%"></span>
+                        <h4>HTML Banners</h4>
+                        <p> HTML banners are developed as per HTML5 coding standards using any text editors, often used for Websites and search boxes. They allow interaction before the visitor even reaches the destination site which often results in higher response rates than purely graphical banners.</p>
+                        <span class="hvr-rectangle-out textColor" data-wow-delay=".5s" style="cursor:pointer" id="htmlBanner" data-toggle="modal" data-target="#myModal1">Know More</span>
+                     </div>
+                  </div>
+                  <div class="tab-pane  text-style" id="tab2">
+                     <div class="facts">
+                        <span ><img src="images/Rich_Media_Banners.png" width="100%" height="100%"></span>
+                        <h4>Rich Media Banners</h4>
+                        <p>Rich media helps to create complex ads that can elicit strong user response. It blends advanced features like video, audio, or other elements that encourage viewers to interact and engage with the content. Youtube masthead banners and pushdown banners are example of Rich media banners.</p>
+                        <span class="hvr-rectangle-out textColor" data-wow-delay=".5s" style="cursor:pointer" id="riBanner" data-toggle="modal" data-target="#myModal2">Know More</span>	
+                     </div>
+                  </div>
+                  <div class="tab-pane  text-style" id="tab3">
+                     <div class="facts">
+                        <span><img src="images/Responsive_Banners.png" width="100%" height="100%"></span>
+                        <h4>Responsive Banners</h4>
+                        <p> Responsive banner ads are compatible for all devices ex: i-PAD, Mobile phone, Tablet, Desktop & Laptop </p>
+                        <span class="hvr-rectangle-out textColor" data-wow-delay=".5s" style="cursor:pointer" id="reBanner" data-toggle="modal" data-target="#myModal3">Know More</span>					      
+                     </div>
+                  </div>
+                  <div class="tab-pane  text-style" id="tab5">
+                     <div class="facts">
+                        <span><img src="images/Static_Banners.png" width="100%" height="100%"></span>
+                        <h4>Static Banners</h4>
+                        <p> A static web banner is in the form of a single image containing graphic and content, that stays the same, it doesn't move or change shape. These have fixed widths and heights in pixels. </p>
+                        <span class="hvr-rectangle-out textColor" data-wow-delay=".5s" style="cursor:pointer" id="stBanner" data-toggle="modal" data-target="#myModal4">Know More</span>					      
+                     </div>
+                  </div>
+               </div>
+               <div class="clearfix"></div>
+            </div>
+         </div>
+         
+
+      <!--//footer-->
+      <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+      <!-- Modal -->
+      <div class="modal fade" id="myModal1" role="dialog">
+         <div class="emptyDiv"></div>
+         <div class="modal-dialog">
+            <!-- Modal content HTML5 Banners-->
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close popupHide" data-dismiss="modal"><span style="font-weight:bolder;font-size:40px">&times;</span></button>
+                  <iframe src="banner.html" width="100%" height="700" style="border:0px;" id="bannerpage" name="bannerpage"></iframe>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade" id="myModal2" role="dialog">
+      <div class="emptyDiv"></div>
+         <div class="modal-dialog">
+            <!-- Modal content HTML5 Banners-->
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close popupHide" data-dismiss="modal"><span style="font-weight:bolder;font-size:40px">&times;</span></button>
+                  <iframe src="riBanner.html" width="100%" height="700" style="border:0px;" name="ribannerpage"></iframe>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade" id="myModal3" role="dialog">
+      <div class="emptyDiv"></div>
+         <div class="modal-dialog">
+            <!-- Modal content HTML5 Banners-->
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close popupHide" data-dismiss="modal"><span style="font-weight:bolder; font-size:40px">&times;</span></button>
+                  <iframe src="reBanner.html" width="100%" height="700" style="border:0px;"></iframe>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade" id="myModal4" role="dialog">
+      <div class="emptyDiv"></div>
+         <div class="modal-dialog">
+            <!-- Modal content HTML5 Banners-->
+            <div class="modal-content">
+               <div class="modal-header">
+                  <button type="button" class="close popupHide" data-dismiss="modal"><span style="font-weight:bolder;font-size:40px">&times;</span></button>
+                  <iframe src="stBanner.html" width="100%" height="700" style="border:0px;" name="stbannerpage"></iframe>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script>
+         window.onload=function(){
+			 
+			 
+         $("#myModal1 button").bind("click",function(event){
+         
+         $('body').css({"overflow":"scroll","overflow-x":"hidden"});
+		 $('#myModal1').css({"overflow-x":"hidden"});
+         })
+         $("#myModal2 button").bind("click",function(event){
+         
+         $('body').css("overflow","scroll");
+         })
+         $("#myModal3 button").bind("click",function(event){
+         
+         $('body').css("overflow","scroll");
+         })
+         $("#myModal4 button").bind("click",function(event){
+         
+         $('body').css("overflow","scroll");
+         })
+         $("#htmlBanner").bind("click",function(){
+             // window.open("./banner.html");
+         $('body').css("overflow","hidden");
+         //$(window).live('scroll', function() { return false; });
+         });
+         $("#riBanner").bind("click",function(){
+         
+         $('body').css("overflow","hidden");
+         //window.open("./ribanner.html");
+         });
+         $("#reBanner").bind("click",function(){
+         
+         $('body').css("overflow","hidden");
+         // window.open("./rebanner.html");
+         });
+         $("#stBanner").bind("click",function(){
+         
+         $('body').css("overflow","hidden");
+         // window.open("./stbanner.html");
+         });
+         }
+	function parentFunction123(){
+	alert(236);
+	//$("#bannerhtml").removeClass("heightClass");
+	//$.find("#bannerhtml").removeClass("heightClass");
+	//$("#bannerpage").find("#bannerhtml").removeClass("heightClass");
+	var children = $("#bannerpage").children();
+	console.log(children)
+	window.bannerpage.bodyHeight2();
+		//if (index < children.length) {
+			//if (children[0].removeClass("heightClass")) {
+//				alert("hi!");
+//			}
+		//}
+	}
+      </script>
+      <script>
+         //Email Feature Start;
+           $(document).ready(function(){
+         function submitForm() {
+    // your code
+
+    $("#myform")[0].reset();
+}
+             $("#contactsubmit").click(function(e){
+				
+			var name=$("#VisitorName").val();
+			var em=$("#VisitorEmail").val();
+			var phn=$("#PhoneNumber").val();
+			var comp=$("#CompanyName").val();
+			var body=$("#Message").val();
+         
+          var url1="http://staging2.indegene.com/EmailerAPI/api/Email";
+                setTimeout(function(){ e.preventDefault();},50);
+           $.support.cors=true;
+               $.ajax({
+            crossDomain: true, 
+            url: url1,
+            type: 'GET',
+         	data:{visitorname:name, UserName: em, phone:phn,company:comp, body:body},
+         	contentType: "application/json; charset=utf-8",
+         	traditional: true,
+            dataType: 'json',
+         	success: function (data) {
+         	alert("Message sent successfully.");
+         	
+                   },
+                   error:function(data){
+         	console.log(data);
+         	
+         	
+                     
+                   }
+				   
+                 });
+				
+				  
+             });
+           });
+         //Email Feature End.
+      </script>
+      <script>
+         $("#myModal1").bind("click",function(){
+         	$("#iFrame1")
+         	})
+         
+         // Disable scroll zooming and bind back the click event
+         var onMapMouseleaveHandler = function (event) {
+         var that = $(this);
+         
+         that.on('click', onMapClickHandler);
+         that.off('mouseleave', onMapMouseleaveHandler);
+         that.find('iframe').css("pointer-events", "none");
+         }
+         
+         var onMapClickHandler = function (event) { 
+         var that = $(this);
+         
+         // Disable the click handler until the user leaves the map area
+         that.off('click', onMapClickHandler);
+         
+         // Enable scrolling zoom
+         that.find('iframe').css("pointer-events", "auto");
+         
+         // Handle the mouse leave event
+         that.on('mouseleave', onMapMouseleaveHandler);
+         }
+         
+         // Enable map zooming with mouse scroll when the user clicks the map
+         $('.maps.embed-container').on('click', onMapClickHandler);
+		 
+		 
+      </script>
+      <script type="text/javascript">
+         function parentFunctionScroll(){$("body").css("overflow","scroll");}
+              function parentFunction(){$(".popupHide").css("display","none");}
+               function parentFunctionShow(){$(".popupHide").css("display","block");//console.log("st main 123");
+			   if($("#tab1").css("display")=="block"){window.bannerpage.bodyHeight2();}
+			   if($("#tab2").css("display")=="block"){window.ribannerpage.bodyHeight2ri();}
+			   if($("#tab5").css("display")=="block"){ 	window.stbannerpage.bodyHeight2st(); }
+			   }
+              					$(document).ready(function() {
+              						/*
+              						var defaults = {
+              				  			containerID: 'toTop', // fading element id
+              							containerHoverID: 'toTopHover', // fading element hover id
+              							scrollSpeed: 1200,
+              							easingType: 'linear' 
+              				 		};
+              			 			*/
+              						
+              						$().UItoTop({ easingType: 'easeOutQuart' });
+              						
+              					});
+              					function xyx(){alert("x");$(".popupHide").css("display","none")}
+              	 
+      </script>		
+      
+   </body>
+</html>
